@@ -1,0 +1,23 @@
+r - reading a file
+w -writing to a file (i.e. modifiying it)
+x - running a file as a program or script
+You can do this separately for the
+u = user
+g = group (defined in /etc/groups)
+o = everybody on the system
+
+
+The easiest way to set commands is using the "chmod" command
+
+Linux allows you to switch between user accounts if you know the password. You use the su (substitute user) command with the -l switch
+
+su -l USERNAME -- switches to another user account
+
+There is a distinguished user on a Linux system called the superuser that owns the process that starts the entire system. You are generally not allowed to use su to be come the superuser, but if you are on the list of "sudoers" (/etc/sudoers) you can run a command as superuser using sudo
+
+sudo COMMANDS -- runs the commands as the superuser
+If you own a file, you can change the owner and change the group using the chown and chgrp commands. You can also change the password using the passwd command.
+
+ssh issues solved by a flag
+
+ssh -oHostKeyAlgorithms=+ssh-rsa username@tiara.cs.brandeis.edu
