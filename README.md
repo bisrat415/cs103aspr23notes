@@ -19,9 +19,6 @@ The course covers the following topics:
 ## Repository Structure
 The repository is organized by lessons, with each lesson having its own folder. Inside each folder, you'll find notes, slides, and codes written during class.
 
-## Contributing
-If you find any errors or have any suggestions for improving the materials, please feel free to open a pull request or an issue in the repository.
-
 ## License
 The contents of this repository are licensed under the Creative Commons Zero v1.0 Universal license
 
